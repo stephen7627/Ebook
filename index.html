@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>E-Book Reader</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <h1 class="logo">📚 E-Book Reader</h1>
+
+    <div class="controls">
+      <button id="highlightBtn">Highlight</button>
+      <button id="themeToggle">🌙</button>
+    </div>
+  </header>
+
+
+  <!-- ================= MAIN LAYOUT ================= -->
+  <div class="container">
+
+    <!-- Sidebar / Library -->
+    <aside class="sidebar">
+      <h2>Books</h2>
+      <ul id="bookList"></ul>
+    </aside>
+
+    <!-- Reader Area -->
+    <main class="reader">
+      <div id="content" class="content">
+        Select a book to start reading...
+      </div>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
